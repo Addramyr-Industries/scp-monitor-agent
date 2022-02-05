@@ -1,0 +1,27 @@
+{
+    "name": "agent",
+    "version": "1.0.1",
+    "description": "",
+    "main": "agent.js",
+    "scripts": {
+        "test": "nodemon agent.js --api=localhost --port=4280 --agent-port=1701"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "chalk": "^4.1.2",
+        "check-disk-space": "^3.1.0",
+        "cors": "^2.8.5",
+        "eventemitter2": "^6.4.5",
+        "express": "^4.17.2",
+        "express-http-proxy": "^1.6.3",
+        "fast-folder-size": "^1.6.1",
+        "http": "^0.0.1-security",
+        "node-schedule": "^2.1.0",
+        "slug": "^5.2.0",
+        "tar": "^6.1.11",
+        "yargs": "^17.3.1"
+    }
+}
